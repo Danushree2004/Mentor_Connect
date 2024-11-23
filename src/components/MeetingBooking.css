@@ -1,0 +1,42 @@
+/* src/components/MeetingBooking.css */
+.booking-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  
+  .slots-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .slot-button {
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .slot-button.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .book-button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-button:hover {
+    background-color: #218838;
+  }
+  

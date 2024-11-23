@@ -1,0 +1,138 @@
+/* src/components/Home.css */
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    color: #333;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .features-section {
+    padding: 50px;
+    background-color: #d0cfcf;
+    text-align: center;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature-card {
+    max-width: 30%;
+    text-align: center;
+  }
+  
+  .feature-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .feature-card h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .testimonials-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .testimonial-card {
+    max-width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-card h4 {
+    font-size: 1.1rem;
+    color: #007bff;
+  }
+  
+  .footer-section1 {
+    background-color: #656565;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  

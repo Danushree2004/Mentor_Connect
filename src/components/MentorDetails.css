@@ -1,0 +1,41 @@
+.mentor-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-image:url('image.jpeg') ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-color: #efdbef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .mentor-details-content {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .mentor-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .rating-stars {
+    font-size: 1.5rem;
+    color: #FFD700;
+  }

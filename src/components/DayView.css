@@ -1,0 +1,46 @@
+/* Day view styling */
+.day-view-container {
+    margin-top: 20px;
+  }
+  
+  .day-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  
+  .day-grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .time-label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Week view styling */
+  .week-view-container {
+    margin-top: 20px;
+  }
+  
+  .week-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .week-grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .day-label {
+    font-size: 14px;
+    color: #333;
+  }
+  

@@ -1,0 +1,147 @@
+/* src/components/About.css */
+.about-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-image:linear-gradient(0deg, rgba(161, 207, 139, 0.6) 0%,rgba(112, 194, 229, 0) 100%);
+  }
+  
+  .about-hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f4f4f4;
+  }
+  
+  .about-hero-section h1{
+    text-align: center;
+  }
+  .about-hero-content {
+    max-width: 50%;
+  }
+  
+  .about-hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .about-hero-image img {
+    max-width: 100%;
+    border-radius: 20px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .mission-section {
+    padding: 50px;
+    background-color: #fefefe;
+    text-align: center;
+  }
+  .impact-section {
+    padding: 50px;
+    background-color: #f1e9e9;
+    text-align: center;
+  }
+  
+  .mission-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .impact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .mission-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .impact-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .team-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    max-width: 30%;
+    text-align: center;
+  }
+  
+  .team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .values-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .values-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .values-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values-section li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section {
+    background-color: #adadad;
+    color: white;
+    text-align: center;
+    padding:20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  

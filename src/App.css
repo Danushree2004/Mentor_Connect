@@ -1,0 +1,38 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.headera {
+  background-color: #636975;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+header h1{
+  font-size: xx-large;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
